@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login page</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="home">
+      <div class="card">
+        <div class="input-fields-section" id="input-fields-section">
+          <div class="signin" id="signin-fields">
+            <h1 class="heading">Sign in</h1>
+            <div class="icons">
+              <span class="icon">A</span>
+              <span class="icon">A</span>
+              <span class="icon">A</span>
+            </div>
+            <div class="user-your-account">or user your account</div>
+            <input placeholder="Email" class="inputs" />
+            <input placeholder="Password" class="inputs" />
+            <p class="forgot-password">Forgot your password?</p>
+            <button class="button">Sign in</button>
+          </div>
+
+          <div class="signup" id="signup-fields">
+            <h1 class="heading">Sign up</h1>
+            <div class="icons">
+              <span class="icon">A</span>
+              <span class="icon">A</span>
+              <span class="icon">A</span>
+            </div>
+            <div class="user-your-account">or user your account</div>
+            <input placeholder="Email" class="inputs" />
+            <input placeholder="Password" class="inputs" />
+            <p class="forgot-password">Forgot your password?</p>
+            <button class="button">Sign in</button>
+          </div>
+        </div>
+
+        <div class="signup-or-login" id="transparant-tab">
+          <div class="signup-link" id="transparant-tab-contents">
+            <h1 class="heading">Hello Friends</h1>
+            <p class="signup-text">
+              Enter your personal details and start journey with us.
+            </p>
+            <button class="signup-button button" onclick="onSignupClick()">
+              Sign Up
+            </button>
+          </div>
+
+          <div class="welcome-back" id="welcome-back">
+            <h1 class="heading">Welcome Back</h1>
+            <p class="signup-text">
+              To keep connected with us please login with your personal info.
+            </p>
+            <button class="signup-button button" onclick="onSigninClick()">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
